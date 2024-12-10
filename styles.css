@@ -1,0 +1,127 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: #80b2d9;
+}
+
+img{
+    width: 10rem;
+}
+
+.navegador{
+    background-color: #4489c9;
+    width: 15%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+.navegador-dos{
+    margin-left: 16%;
+    top: auto;
+}
+
+.indice{
+    font-family: cursive;
+    text-decoration: none;
+}
+
+.indice, .imagen-programador{
+    margin-left: 20%;
+}
+
+.indice:hover{
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+nav ul a:visited{
+    color: yellow;
+}
+
+.imagen-programador{
+    shape-outside: circle();
+}
+
+.subtema{
+    height: 100vh;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-family: cursive
+}
+
+.sobre:checked{
+    color: #4489c9;
+    background-color: yellow;
+    padding: 0.5rem;
+    border-radius: 10%;
+}
+
+/*estilos para proyectos*/
+.contenido{
+    margin: auto 10%;
+    width: 60%;
+    height: 40vh;
+    background-color: #456;
+    
+}
+
+.project{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #4489c9;
+    border: medium solid #80b2d9;
+    cursor: pointer;
+}
+
+.proyectos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    
+}
+
+.tamaño-imagen{
+    width: 200px;
+    height: 100px
+}
+
+.texto{
+    font-size: 16px;
+    font-family: cursive;
+    color: #7f11e0;
+}
+
+p{
+    font-size: 14px;
+    font-family: cursive;
+}
+
+
+.java{
+    margin-left: 80px;
+    width: 40px;
+}
+
+.hecho-por{
+    display: flex;
+}
+
+.hecho-por img{
+    margin-left: 15px;
+    width: 40px;
+}
